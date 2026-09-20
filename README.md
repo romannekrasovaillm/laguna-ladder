@@ -1,4 +1,4 @@
-<img src="assets/laguna-ladder.svg" alt="Лесенка Лагуна: контур ревизии — стадии CPT → SFT → Agentic-RL, приборы, гейты и границы" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/laguna-ladder-dark.png"><img src="assets/laguna-ladder-light.png" alt="Лесенка Лагуна: контур ревизии — стадии CPT → SFT → Agentic-RL, приборы, гейты и границы" width="100%"></picture>
 
 # Лесенка Лагуна — контур ревизии доменной модели
 
@@ -61,7 +61,9 @@ ADR-048 (граница публикации витрины). Витрина о�
 ## Файлы
 
 ```
-assets/laguna-ladder.svg                 схема (детерминированный SVG, self-contained)
+assets/laguna-ladder-light.png           схема для светлой темы (рендер из SVG)
+assets/laguna-ladder-dark.png            схема для тёмной темы (авто-переключение GitHub)
+assets/laguna-ladder.svg                 SVG-исходник (детерминированный, self-contained)
 diagram/laguna-ladder.architecture.json  IR-исходник схемы (архитектура как код)
 docs/ADR-048-publikaciya-vitriny.md      решение о границе публикации
 ```
