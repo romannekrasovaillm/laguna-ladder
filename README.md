@@ -1,4 +1,6 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/laguna-ladder-dark.png"><img src="assets/laguna-ladder-light.png" alt="Лесенка Лагуна: контур ревизии — стадии CPT → SFT → Agentic-RL, приборы, гейты и границы" width="100%"></picture>
+<a href="https://romannekrasovaillm.github.io/laguna-ladder/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/laguna-ladder-dark.png"><img src="assets/laguna-ladder-light.png" alt="Лесенка Лагуна: контур ревизии — стадии CPT → SFT → Agentic-RL, приборы, гейты и границы" width="100%"></picture></a>
+
+<sub>Клик по схеме — интерактивная версия: guided-виды, поиск узлов, экспорт PNG ×4. Открывается на https://romannekrasovaillm.github.io/laguna-ladder/</sub>
 
 # Лесенка Лагуна — контур ревизии доменной модели
 
@@ -65,5 +67,6 @@ assets/laguna-ladder-light.png           схема для светлой тем
 assets/laguna-ladder-dark.png            схема для тёмной темы (авто-переключение GitHub)
 assets/laguna-ladder.svg                 SVG-исходник (детерминированный, self-contained)
 diagram/laguna-ladder.architecture.json  IR-исходник схемы (архитектура как код)
+docs/index.html                          интерактивная схема (GitHub Pages)
 docs/ADR-048-publikaciya-vitriny.md      решение о границе публикации
 ```
